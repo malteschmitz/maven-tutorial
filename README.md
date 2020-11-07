@@ -227,7 +227,7 @@ public class Main {
 [Apache Commons IO](https://mvnrepository.com/artifact/commons-io/commons-io/2.6) als Dependency konfigurieren:
 
 ```xml
-<dependencies>
+  <dependencies>
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
