@@ -326,7 +326,7 @@ Konfiguration von JUnit5 als Dependency:
 ```
 
 Test anlegen:
-```
+```java
 // CalcTest.java
 package example;
 
