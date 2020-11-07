@@ -58,7 +58,9 @@ Maven erwartet folgende Ordnerstruktur:
                 └── Main.java
 ```
 
-[Einfachste Konfiguration](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html):
+[Anleitung _Maven in 5 Minutes_](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
+
+Einfachste Konfiguration:
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -118,7 +120,9 @@ mvn clean
 
 ## Exec Plugin
 
-Ausführen von Projekten mit Maven. [Anleitung](https://www.mojohaus.org/exec-maven-plugin/usage.html)
+Ausführen von Projekten mit Maven.
+
+[Anleitung _Exec Maven Plugin_](https://www.mojohaus.org/exec-maven-plugin/usage.html)
 
 Über die Konsole:
 ```
@@ -265,7 +269,9 @@ java -cp target/example-1.0-SNAPSHOT.jar example.Main
 ```
 wirft `java.lang.NoClassDefFoundError: org/apache/commons/io/IOUtils`.
 
-Ziel: Bauen einer JAR, die direkt über `java -jar` gestartet werden kann. [Anleitung](http://maven.apache.org/plugins/maven-assembly-plugin/usage.html)
+Ziel: Bauen einer JAR, die direkt über `java -jar` gestartet werden kann.
+
+[Anleitung _Apache Maven Assembly Plugin_](http://maven.apache.org/plugins/maven-assembly-plugin/usage.html)
 
 Konfiguration als Build-Plugin:
 ```xml
@@ -293,7 +299,7 @@ java -jar target/example-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 ## JUnit5
 
-[Anleitung](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven)
+[Anleitung _JUnit 5 User Guide_](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven)
 
 Konfiguration von Surefire als Build-Plugin:
 ```xml
@@ -363,7 +369,9 @@ mvn test
 
 ## Testreport
 
-[Site](https://maven.apache.org/plugins/maven-site-plugin/usage.html) als Build-Plugin konfigurieren:
+[Anleitung _Apache Maven Site Plugin_](https://maven.apache.org/plugins/maven-site-plugin/usage.html)
+
+Konfiguration von Site als Build-Plugin:
 ```xml
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -372,7 +380,9 @@ mvn test
       </plugin>
 ```
 
-Konfiguration von [Surefire](https://maven.apache.org/surefire/maven-surefire-report-plugin/usage.html) als Report-Plugin:
+[Anleitung _Maven Surefire Report Plugin_](https://maven.apache.org/surefire/maven-surefire-report-plugin/usage.html)
+
+Konfiguration von Surefire als Report-Plugin:
 ```xml
   <reporting>
     <plugins>
